@@ -9,11 +9,9 @@ public class LenearSearch {
         if (idx == arr.length){
             return;
         }
-
         if(arr[idx] == target){
             System.out.println(idx);
         }
-
         FindAllIndices(arr, target, idx+1);
     }
 

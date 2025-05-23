@@ -26,7 +26,7 @@ public class FrogJump{
 
     public static void main(String[] args) {
 
-        int [] h = {10,30,40,20,45,34,26,7,8,3,88,5,44,2,54};
+        int [] h = {0,2,5,6,7};
 
         System.out.println(best(h, 0));
 

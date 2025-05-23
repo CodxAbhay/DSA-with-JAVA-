@@ -8,7 +8,6 @@ public class SumOfAllSubset {
             System.out.println(sum);
             return;
         }
-
         sumSubset(a, idx+1, sum); // do not including the current sum 
         sumSubset(a, idx+1, sum + a[idx]);  // including the current sum
     }

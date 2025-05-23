@@ -3,7 +3,6 @@
 // You will given to a string print all the substring of the string
 
 import java.util.Arrays;
-
 public class PrintSubString {
     static void substring(String str,String ans){
         if(str.isEmpty()){

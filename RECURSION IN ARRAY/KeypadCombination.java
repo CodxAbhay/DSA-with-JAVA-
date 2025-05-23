@@ -16,11 +16,5 @@ public class KeypadCombination {
 //                      0   1   2     3      4     5     6     7      8     9
         String [] kp = {"","", "abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
         combination(dig, kp, "");
-
-         
-
-
-
-
     }
 }
